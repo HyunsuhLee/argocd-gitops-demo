@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: gitops-demo-app
-  replicas: 2 # 파드 2개로 시작
+  replicas: 5 # 파드 2개로 시작
   template:
     metadata:
       labels:
